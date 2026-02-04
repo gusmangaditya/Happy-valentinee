@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Valentine untuk Kamu 💕</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <section class="left">
+      <div class="slider" id="slider">
+        <!-- Ganti src dengan nama file fotomu sesuai README -->
+        <div class="slide active"><img src="images/photo1.jpg" alt="Foto 1" /></div>
+        <div class="slide"><img src="images/photo2.jpg" alt="Foto 2" /></div>
+        <div class="slide"><img src="images/photo3.jpg" alt="Foto 3" /></div>
+        <div class="slide"><img src="images/photo4.jpg" alt="Foto 4" /></div>
+
+        <button class="nav prev" id="prevBtn" aria-label="Sebelumnya">‹</button>
+        <button class="nav next" id="nextBtn" aria-label="Selanjutnya">›</button>
+
+        <div class="dots" id="dots"></div>
+      </div>
+
+      <div class="audio-controls">
+        <button id="playPause" class="btn">Putar Lagu</button>
+        <label class="switch">
+          <input type="checkbox" id="loopToggle" checked />
+          <span class="slider-toggle"></span>
+        </label>
+        <span class="small">Loop</span>
+        <!-- Masukkan file lagu bernama song.mp3 di folder yang sama -->
+        <audio id="music" src="audio/song.mp3" preload="auto"></audio>
+      </div>
+    </section>
+
+    <section class="right">
+      <h1>Selamat Hari Valentine</h1>
+      <p class="message">
+        Semangatt yaa buat menjalani hari-hari kamu. Apa pun yang kamu hadapi, aku selalu ada buat nemenin dan dukung kamu.
+        Jangan lupa buat happy terus samaaa akuu yaa, karena senyum kamu itu salah satu hal favoritku 💕
+        Hadiah ini mungkin beda dari yang lain, tapi aku harap bisa jadi pengingat kecil kalau kamu itu spesial banget buat aku.
+        Terima kasih sudah hadir dan jadi bagian penting di hidupku. Aku sayang kamu, hari ini, besok, dan seterusnya 🌹
+      </p>
+
+      <div class="actions">
+        <button id="openSlider" class="btn primary">Lihat Foto</button>
+        <a href="#" id="downloadBtn" class="btn">Simpan Halaman</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <small>Dibuat dengan cinta 💖</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
